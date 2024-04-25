@@ -1,3 +1,32 @@
+# Task Manager
+
+Task Manager is a web application built with React that allows users to manage their tasks efficiently. Users can add new tasks, mark tasks as completed, edit existing tasks, and view all tasks or only completed tasks.
+
+## Features
+
+- Add new tasks with a title and description
+- Mark tasks as completed
+- Edit existing tasks
+- View all tasks or only completed tasks
+- Tasks are saved locally and persist across sessions
+
+## Technologies Used
+
+React: The application is built using React, a popular JavaScript library for building user interfaces. React's component-based architecture helps in creating reusable and modular UI components, making the code more maintainable and easier to understand.
+
+Material-UI: Material-UI is used for styling the components. It provides a set of pre-built React components that follow Google's Material Design principles, giving the application a modern and visually appealing look.
+
+LocalStorage: The application uses the browser's localStorage to store the list of tasks and completed tasks. This allows the user's tasks to persist even after refreshing the page or closing the browser.
+
+UUID: The uuid package is used to generate unique IDs for each task. This ensures that each task has a unique identifier, which is useful for updating and deleting tasks.
+
+Icons: Icons from the react-icons package, such as AiOutlineDelete, AiOutlineEdit, and BsCheck, are used to provide visual cues for actions like deleting, editing, and completing tasks.
+
+Context API: Create a context to manage the application's state and provide it to the components that need access to the state. Use the useContext hook to access the context in child components.
+
+Glassmorphism Effect: Apply the glassmorphism effect to the components by using CSS. You can create a CSS class for the effect and apply it to the desired elements.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
